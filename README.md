@@ -1,99 +1,33 @@
 # 🎬 Netflix Data Analysis using Python
 
-## 🚀 Skills Demonstrated
-
-✔ Data Cleaning
-
-✔ Exploratory Data Analysis (EDA)
-
-✔ Feature Engineering
-
-✔ Data Visualization
-
-✔ Business Insights
-
-✔ Pandas
-
-✔ Matplotlib
-
-✔ Python
-
 <div align="center">
+
+# 📺 Exploratory Data Analysis (EDA) of Netflix Movies & TV Shows Dataset
+
+Analyze Netflix's content catalogue to uncover trends in **Movies, TV Shows, Genres, Countries, Ratings, Release Years, and Content Growth** using **Python, Pandas, and Matplotlib**.
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange?style=for-the-badge)
-![Status](https://img.shields.io/badge/Project-Completed-success?style=for-the-badge)
-
-
----
-
-## 📸 Project Preview
-
-![Preview](images/01_type_counts.png)
-### 📊 Exploratory Data Analysis (EDA) of Netflix Movies & TV Shows Dataset
-
-Analyzing Netflix's content catalogue to discover trends in **movies, TV shows, genres, ratings, countries, release years, and content growth** using **Python, Pandas, and Matplotlib**.
-
-## 📌 Project Statistics
-
-| Metric | Value |
-|--------|-------|
-| Dataset Size | 8,807 Titles |
-| Features | 12 Columns |
-| Visualizations | 8 |
-| Libraries Used | Pandas, Matplotlib |
-| Notebook Cells | 40+ |
-| Dataset Source | Kaggle |
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter)
+![EDA](https://img.shields.io/badge/Data-Analysis-success?style=for-the-badge)
 
 </div>
 
-## 📊 Project Visualizations
-
-### Movies vs TV Shows
-![Movies vs TV Shows](images/01_type_counts.png)
-> **Insight:** Netflix's catalog is dominated by movies, with approximately 70% Movies and 30% TV Shows.
-
 ---
 
-### Titles Added Per Year
-![Titles Per Year](images/02_titles_per_year.png)
-> **Insight:** Netflix experienced rapid content growth between 2016 and 2019, with 2019 being the peak year for new additions.
 
----
+# 📌 Project Statistics
 
-### Top Genres
-![Top Genres](images/03_top_genres.png)
-
----
-
-### Top Countries
-![Top Countries](images/04_top_countries.png)
-> **Insight:** The United States contributes the largest share of titles, followed by India and the United Kingdom.
-
----
-
-### Content Ratings
-![Content Ratings](images/05_content_ratings.png)
-> **Insight:** Most Netflix titles are rated TV-MA and TV-14, indicating a strong focus on mature and teen audiences.
-
----
-
-### Release Year Distribution
-![Release Years](images/06_release_year_hist.png)
-> **Insight:** Most content on Netflix consists of titles released after 2010, showing a preference for newer productions.
-
----
-
-### Genre Popularity by Country
-![Heatmap](images/07_genre_by_country_heatmap.png)
-> **Insight:** Genre preferences vary across countries, with the United States and India contributing the highest number of titles across multiple genres.
-
----
-
-### Years Between Release and Netflix Addition
-![Years to Add](images/08_years_to_add_hist.png)
-> **Insight:** Most titles are added to Netflix within a few years of release, reflecting a strategy of acquiring recent content.
+| Metric | Value |
+|---------|-------|
+| 📂 Dataset Size | **8,807 Netflix Titles** |
+| 📊 Visualizations | **8 Professional Charts** |
+| 🧹 Missing Values Cleaned | **Yes** |
+| ⚙️ Features Engineered | **5+ New Features** |
+| 📈 Business Insights Generated | **20+ Insights** |
+| 🐍 Language | **Python** |
+| 📚 Libraries | **Pandas, Matplotlib** |
 
 ---
 
@@ -106,7 +40,7 @@ Analyzing Netflix's content catalogue to discover trends in **movies, TV shows, 
 - Project Workflow
 - Key Features
 - Visualizations
-- Key Insights
+- Results
 - Folder Structure
 - How to Run
 - Future Improvements
@@ -116,69 +50,59 @@ Analyzing Netflix's content catalogue to discover trends in **movies, TV shows, 
 
 # 🎯 Project Overview
 
-Netflix has one of the world's largest streaming libraries, containing thousands of Movies and TV Shows from different countries and genres.
+Netflix hosts one of the world's largest streaming libraries, offering thousands of Movies and TV Shows across various countries, genres, and audience categories.
 
-The goal of this project is to perform **Exploratory Data Analysis (EDA)** on the Netflix dataset to answer important business questions and uncover meaningful insights about Netflix's content strategy.
+The objective of this project is to perform **Exploratory Data Analysis (EDA)** on the Netflix Movies & TV Shows dataset to uncover patterns, identify trends, and generate meaningful business insights.
 
-This project demonstrates the complete Data Analysis workflow including:
+This project demonstrates the complete Data Analysis workflow, including:
 
 - Data Cleaning
 - Missing Value Handling
 - Feature Engineering
+- Exploratory Data Analysis (EDA)
 - Data Visualization
 - Business Insight Generation
 
 ---
-## 💡 Business Questions
-
-This project answers questions such as:
-
-• Does Netflix prefer Movies or TV Shows?
-
-• Which countries produce the most content?
-
-• Which genres dominate Netflix?
-
-• Which ratings are most common?
-
-• How quickly are titles added after release?
-
-• Has Netflix's catalogue grown over time?
 
 # 🎯 Objectives
 
-This project aims to answer questions such as:
+This project answers several key business questions:
 
 - 🎬 Does Netflix have more Movies or TV Shows?
-- 🌍 Which countries produce the most Netflix content?
+- 🌍 Which countries contribute the most content?
 - 🎭 Which genres dominate Netflix's catalogue?
-- 📈 How has Netflix's library grown over time?
+- 📈 How has Netflix's catalogue grown over time?
 - 🔞 What audience is Netflix mainly targeting?
-- 📅 How quickly are titles added after their release?
-- 🌎 How does genre popularity vary across countries?
+- 📅 How quickly are titles added after release?
+- 🌎 How do genre preferences differ across countries?
 
 ---
 
 # 📂 Dataset
 
-**Dataset Name**
+### Dataset Name
 
 Netflix Movies and TV Shows Dataset
 
-**Source**
+### Source
 
-Kaggle
+**Kaggle**
 
-**Records**
+https://www.kaggle.com/datasets/shivamb/netflix-shows
+
+### Dataset Information
 
 - **8,807 Titles**
+- **12 Features**
+- Movies and TV Shows
+- Multiple Countries
+- Multiple Genres
+- Release Years (1925–2021)
 
-**Features**
+### Main Features
 
-- 12 Columns
-
-Main Columns:
-
+- Show ID
 - Title
 - Type
 - Director
@@ -188,7 +112,7 @@ Main Columns:
 - Release Year
 - Rating
 - Duration
-- Genres
+- Listed In (Genres)
 - Description
 
 ---
@@ -203,16 +127,27 @@ Main Columns:
 ---
 
 # 📋 Project Workflow
-```mermaid
-flowchart TD
-A[Raw Netflix Dataset]
-B[Data Cleaning]
-C[Feature Engineering]
-D[Exploratory Data Analysis]
-E[Visualization]
-F[Business Insights]
 
-A --> B --> C --> D --> E --> F
+```text
+Netflix Dataset
+        │
+        ▼
+ Data Cleaning
+        │
+        ▼
+ Missing Value Handling
+        │
+        ▼
+ Feature Engineering
+        │
+        ▼
+ Exploratory Data Analysis
+        │
+        ▼
+ Data Visualization
+        │
+        ▼
+ Business Insights
 ```
 
 ---
@@ -223,7 +158,7 @@ A --> B --> C --> D --> E --> F
 
 ✅ Converted date columns into datetime format
 
-✅ Created new engineered features
+✅ Created engineered features
 
 - Year Added
 - Month Added
@@ -236,130 +171,190 @@ A --> B --> C --> D --> E --> F
 - Genres
 - Countries
 
-✅ Generated multiple professional visualizations
+✅ Created professional visualizations
 
-✅ Extracted business insights after every visualization
-
----
-
-# 📌 Key Insights
-
-### 🎬 Content Distribution
-
-- Movies account for **70.4%** of Netflix's catalogue.
-- TV Shows account for **29.6%**.
-- Netflix places a stronger emphasis on Movies than episodic content.
+✅ Generated business insights for every visualization
 
 ---
 
-### 📈 Netflix Growth
+# 📊 Visualizations
+📊 Project Visualizations
+<table align="center"> <tr> <td align="center" width="50%">
+🎬 Movies vs TV Shows
+<img src="images/01_type_counts.png" width="100%">
 
-- The catalogue grew rapidly after **2016**.
-- The highest number of titles were added in **2019**.
-- This reflects Netflix's global expansion and increased investment in original content.
+Netflix's catalog is dominated by Movies, accounting for around 70% of all titles.
+
+</td> <td align="center" width="50%">
+🎭 Top Genres
+<img src="images/03_top_genres.png" width="100%">
+
+International Movies, Dramas, and Comedies are the most popular genres on Netflix.
+
+</td> </tr> <tr> <td align="center">
+🌍 Top Countries
+<img src="images/04_top_countries.png" width="100%">
+
+The United States contributes the most titles, followed by India and the United Kingdom.
+
+</td> <td align="center">
+🔞 Content Ratings
+<img src="images/05_rating_distribution.png" width="100%">
+
+Most titles are rated TV-MA and TV-14, indicating a focus on mature and teen audiences.
+
+</td> </tr> <tr> <td align="center">
+📈 Titles Added Per Year
+<img src="images/02_titles_per_year.png" width="100%">
+
+Netflix experienced its fastest catalog growth between 2016 and 2019, peaking in 2019.
+
+</td> <td align="center">
+🌎 Genre Popularity by Country
+<img src="images/07_genre_by_country_heatmap.png" width="100%">
+
+The United States offers the widest genre variety, while India strongly emphasizes International Movies and Dramas.
+
+</td> </tr> <tr> <td align="center">
+📅 Release Year Distribution
+<img src="images/06_release_year_hist.png" width="100%">
+
+Most Netflix content consists of titles released after 2010, highlighting a preference for newer productions.
+
+</td> <td align="center">
+⏳ Years to Add on Netflix
+<img src="images/08_years_to_add.png" width="100%">
+
+Most titles are added to Netflix within just a few years of their original release.
+
+</td> </tr> </table>
 
 ---
 
-### 🎭 Popular Genres
+## 🎬 Movies vs TV Shows
 
-The most common genres include:
+![Movies vs TV Shows](images/01_type_counts.png)
 
-- International Movies
-- Dramas
-- Comedies
-
-This demonstrates Netflix's focus on globally appealing entertainment.
+> **Insight:** Movies dominate Netflix's catalogue, accounting for approximately **70%** of all titles, while TV Shows make up around **30%**.
 
 ---
 
-### 🌍 Top Countries
+## 📈 Titles Added to Netflix per Year
 
-Top content-producing countries:
+![Titles Added](images/02_titles_per_year.png)
 
-1. United States
-2. India
-3. United Kingdom
-4. Canada
-5. France
-
-The United States dominates the catalogue by a significant margin.
+> **Insight:** Netflix experienced rapid growth between **2016 and 2019**, reaching its highest number of new additions in **2019** before a slight decline.
 
 ---
 
-### 🔞 Target Audience
+## 🎭 Top Genres
 
-The majority of titles are rated:
+![Top Genres](images/03_top_genres.png)
 
-- TV-MA
-- TV-14
-
-This suggests Netflix mainly targets teenagers and adult audiences.
+> **Insight:** International Movies, Dramas, and Comedies are the most common genres, reflecting Netflix's focus on globally appealing entertainment.
 
 ---
 
-### 📅 Content Freshness
+## 🌍 Top Content-Producing Countries
 
-Most titles appear on Netflix within a few years after release.
+![Countries](images/04_top_countries.png)
 
-Older classic titles represent only a small portion of the catalogue.
+> **Insight:** The United States contributes the largest share of titles, followed by India and the United Kingdom.
 
 ---
 
-### 🌎 Country Preferences
+## 🔞 Distribution of Content Ratings
 
-Genre popularity varies across countries.
+![Ratings](images/05_content_ratings.png)
 
-For example:
+> **Insight:** Most Netflix titles are rated **TV-MA** and **TV-14**, indicating that the platform primarily targets mature and teenage audiences.
 
-- India contributes heavily to International Movies and Dramas.
-- The United States has a broader mix of genres.
+---
+
+## 📅 Distribution of Release Years
+
+![Release Years](images/06_release_year_hist.png)
+
+> **Insight:** The majority of Netflix's catalogue consists of titles released after **2010**, showing a strong emphasis on recent productions.
+
+---
+
+## 🌎 Genre Popularity by Country
+
+![Heatmap](images/07_genre_by_country_heatmap.png)
+
+> **Insight:** Genre popularity varies across countries. The United States offers a diverse mix of genres, while India contributes heavily to International Movies and Dramas.
+
+---
+
+## ⏳ Years Between Release and Netflix Addition
+
+![Years to Add](images/08_years_to_add_hist.png)
+
+> **Insight:** Most titles are added to Netflix within only a few years after release, demonstrating Netflix's strategy of acquiring recent content.
+
+---
+
+# 📈 Results
+
+The analysis revealed several interesting trends about Netflix's content strategy:
+
+- 🎬 Movies account for over **70%** of the platform's catalogue.
+- 📈 Netflix expanded rapidly between **2016–2019**, with **2019** recording the highest number of new additions.
+- 🎭 International Movies, Dramas, and Comedies are the most represented genres.
+- 🌍 The United States is the largest contributor of content, followed by India and the United Kingdom.
+- 🔞 Most titles target mature and teenage audiences through TV-MA and TV-14 ratings.
+- 📅 Netflix increasingly acquires content shortly after its original release.
+- 🌎 Genre preferences differ noticeably between countries, highlighting Netflix's regional content strategy.
 
 ---
 
 # 📁 Folder Structure
 
-```
+```text
 Netflix-Data-Analysis/
 
 │
 ├── data/
-│     └── netflix_titles.csv
+│   └── netflix_titles.csv
 │
 ├── images/
-│     ├── 01_type_counts.png
-│     ├── 02_titles_per_year.png
-│     ├── 03_top_genres.png
-│     ├── 04_top_countries.png
-│     ├── 05_ratings.png
-│     ├── 06_release_year_hist.png
-│     ├── 07_genre_by_country_heatmap.png
-│     └── 08_years_to_add.png
+│   ├── project_preview.png
+│   ├── 01_type_counts.png
+│   ├── 02_titles_per_year.png
+│   ├── 03_top_genres.png
+│   ├── 04_top_countries.png
+│   ├── 05_content_ratings.png
+│   ├── 06_release_year_hist.png
+│   ├── 07_genre_by_country_heatmap.png
+│   └── 08_years_to_add_hist.png
 │
 ├── netflix_data_analysis.ipynb
-│
-└── README.md
+├── README.md
+├── requirements.txt
+└── .gitignore
 ```
 
 ---
 
 # 🚀 How to Run
 
-### Clone the repository
+### Clone the Repository
 
 ```bash
-git clone https://github.com/Zuha/Netflix-Data-Analysis.git
+git clone https://github.com/zuhamaqbul-cyber/Netflix-Data-Analysis.git
 ```
 
-### Move into the project folder
+### Navigate to the Project Folder
 
 ```bash
 cd Netflix-Data-Analysis
 ```
 
-### Install dependencies
+### Install Dependencies
 
 ```bash
-pip install pandas matplotlib
+pip install -r requirements.txt
 ```
 
 ### Launch Jupyter Notebook
@@ -370,53 +365,53 @@ jupyter notebook
 
 Open:
 
-```
+```text
 netflix_data_analysis.ipynb
 ```
 
-Run all cells.
+Run all cells to reproduce the complete analysis.
 
 ---
 
-# 📈 Skills Demonstrated
+# 📒 Notebook
+
+The complete analysis is available here:
+
+**➡️ [netflix_data_analysis.ipynb](netflix_data_analysis.ipynb)**
+
+---
+
+# 💡 Skills Demonstrated
 
 - Data Cleaning
 - Data Wrangling
+- Exploratory Data Analysis (EDA)
 - Feature Engineering
-- Exploratory Data Analysis
 - Data Visualization
 - Business Insight Generation
 - Python Programming
 - Pandas
 - Matplotlib
+- Git & GitHub
 
 ---
 
 # 🔮 Future Improvements
 
-- Build an interactive Power BI dashboard
-- Perform sentiment analysis on title descriptions
-- Create a recommendation system using Machine Learning
-- Develop an interactive Streamlit web application
-- Automate report generation
+- 📊 Create an interactive Power BI Dashboard
+- 🌐 Develop a Streamlit Web Application
+- 🤖 Build a Movie Recommendation System
+- 📈 Add interactive Plotly visualizations
+- 🗄️ Perform SQL-based analysis
+- 🧠 Apply Machine Learning techniques for content recommendation
 
 ---
-## 📚 What I Learned
-
-During this project I learned:
-
-- Cleaning real-world datasets
-- Handling missing values
-- Feature engineering
-- Working with datetime data
-- Creating professional Matplotlib charts
-- Extracting business insights from data
 
 # 👩‍💻 Author
 
-**Zoha Maqbool**
+## Zoha Maqbool
 
-Aspiring Data Scientist | Python Developer | AI & Automation Enthusiast
+**Aspiring Data Scientist | Python Developer | AI & Automation Enthusiast**
 
 ---
 
