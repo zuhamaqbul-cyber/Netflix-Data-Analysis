@@ -265,7 +265,7 @@ Most titles are added to Netflix within just a few years of their original relea
 
 ## 🔞 Distribution of Content Ratings
 
-![Ratings](images/05_rating_distributions.png)
+![Ratings](images/05_rating_distribution.png)
 
 > **Insight:** Most Netflix titles are rated **TV-MA** and **TV-14**, indicating that the platform primarily targets mature and teenage audiences.
 
@@ -289,7 +289,7 @@ Most titles are added to Netflix within just a few years of their original relea
 
 ## ⏳ Years Between Release and Netflix Addition
 
-![Years to Add](images/08_years_to_add_hist.png)
+![Years to Add](images/08_years_to_add.png)
 
 > **Insight:** Most titles are added to Netflix within only a few years after release, demonstrating Netflix's strategy of acquiring recent content.
 
